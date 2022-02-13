@@ -220,7 +220,7 @@ git reflog delete
 ```
 ---
 
-# Branches
+## Branches
 
 **List all local branches**
 ```
@@ -288,7 +288,7 @@ git branch -D <branchname>
 ```
 ---
 
-#Tags
+## Tags
 
 **Create tag on HEAD reference**
 ```
@@ -336,7 +336,7 @@ git tag -d <tagname>
 ```
 ---
 
-#Update & Publish
+## Update & Publish
 
 **Show configured remotes**
 ```
@@ -403,9 +403,9 @@ git push <remote> <tagname>
 git push <remote> --tags
 ```
 ---
-#Merge & Rebase
+## Merge & Rebase
 
-###Fast-Forward-Merge
+### Fast-Forward-Merge
 
 *Before*
 ```
@@ -458,7 +458,7 @@ A ------- D (master)
 ```
 
 
-###3-Way-Merge
+### 3-Way-Merge
 
 A 3-Way-Merge is used if the Fast-Forward-Mege is not possible because branches diverged.
 
@@ -476,7 +476,7 @@ A --- B --- C (master)
 A --- B --- F --- C (master)
 ```
 
-###Merge strategy
+### Merge strategy
 
 **Recursive**
 ```
@@ -585,7 +585,7 @@ squash <commit_id2>
 ```
 ___
 
-##Undo
+## Undo
 
 **Discard all local changes in working directory**
 ```
