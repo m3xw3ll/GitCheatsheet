@@ -3,7 +3,7 @@
 ---
 
 # Table of Content
-* [Getting started](#getting started)
+* [Getting started](#getting-started)
 * [Setup](#setup)
 * [Configuration files](#configuration-files)
 * [Create](#create)
